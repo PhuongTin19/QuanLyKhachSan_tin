@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="PhongTest">
+        <methods>
+          <include name="updateRoom"/>
+          <include name="deleteRoom"/>
+          <include name="addUser"/>
+        </methods>
+      </class> <!-- PhongTest -->
+      <class name="TaiKhoanTest">
+        <methods>
+          <include name="checkLoginSuccess"/>
+          <include name="findUserByUserName"/>
+        </methods>
+      </class> <!-- TaiKhoanTest -->
+      <class name="NhanVienTest">
+        <methods>
+          <include name="updateUser"/>
+          <include name="findUserByUserName"/>
+        </methods>
+      </class> <!-- NhanVienTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
